@@ -1,0 +1,186 @@
+/*elements*/
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #332a34;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #fff;
+    align-items: center;
+    background-color: #000000;
+    background-image: url("abstract-envelope.svg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 3.0rem;
+    line-height: 1.5;
+
+}
+
+h2 {
+    font-weight: 800;
+}
+
+p {
+    font-size: 15px;
+    
+    line-height: 1.6;
+}
+
+/*id*/
+
+/*class*/
+.webiconsdiv{
+    text-align: center;
+}
+.webicons{
+    margin: 1rem;
+}
+
+.profileimg{
+    width: 200%;
+    margin-left: 1rem;
+}
+.card-custom .card-header,
+.card-custom .card-body{
+    background-color: #1f191f;
+}
+.card{
+    margin-top: 1.8rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.collglogo{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.6rem;
+    filter: drop-shadow(0px 5px 10px 0px rgba(0, 0, 0, 0.5));
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #8F43EE;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #8F43EE;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.socialicon {
+    color: #8F43EE;
+    margin: 10px 10px;
+    padding: 10px 15px 10px;
+    border-radius: 50%;
+    font-size: 28px;
+    box-shadow: 0px 0px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.socialicon:hover {
+
+    color: #fff;
+
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.homeimg {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(313deg) brightness(102%) contrast(100%);
+}
+
+.develop {
+    margin-top: 5px;
+}
+
+.typewrite {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container-fluid {
+    padding: 2% 10%;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom,
+.navlink {
+    color: #8F43EE;
+}
+
+.nav-link {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 40px;
+    color: #8F43EE;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    font-size: medium;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.nav-link:hover {
+    font-size: large;
+}
+
+.nav-item :hover {
+    color: #ffffff;
+}
+
+
+.navbar-brand {
+    color: #fff;
+    font-size: 53px;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+
+@media (max-width:990px) {
+    body {
+        text-align: center;
+    }
+
+    .imgintro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .collglogo{
+        width: 40%;
+        margin-top: 1.5rem;
+        
+    }
+    
+   
+}
+
+
+/* Your average text styling */
